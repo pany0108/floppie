@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+/****************************************************************************** 
+  Accordion CSS
+******************************************************************************/
+.accordion li {
+  padding: 24px 40px;
+  background: #ffeee6;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+.accordion li + li {
+  margin-top: 16px;
+}
+.accordion-title {
+  cursor: pointer;
+}
+.accordion-title > div {
+  line-height: 1.2;
+}
+.accordion-detail {
+  display: none;
+  margin-top: 24px;
+  line-height: 1.5;
+}
+.accordion-arrow {
+  transform: rotate(0);
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+  -ms-transform: rotate(0);
+  -o-transform: rotate(0);
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.accordion-arrow.spin {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+
+@media screen and (max-width: 1180px) {
+  .accordion li {
+    padding: 16px 40px;
+  }
+  .accordion-title > div {
+    font-size: 18px;
+  }
+  .accordion-detail {
+    line-height: 1.7;
+  }
+}
+@media screen and (max-width: 767px) {
+  .accordion li {
+    padding: 16px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+  }
+  .accordion-detail {
+    margin-top: 17px;
+  }
+}
+
+/* FAQ */
+.accordion-title.faq > div:before {
+  content: 'Q.';
+  margin-right: 4px;
+}

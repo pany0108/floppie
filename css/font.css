@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+/****************************************************************************** 
+  Font CSS
+******************************************************************************/
+
+/* font color */
+.pt-color {
+  color: #ff6720;
+}
+.font-white {
+  color: #fff;
+}
+.font-light {
+  color: #6a6a6a;
+}
+
+/* font weight */
+.font-w-thin {
+  font-weight: 100;
+}
+.font-w-light {
+  font-weight: 300;
+}
+.font-w-med {
+  font-weight: 500;
+}
+.font-w-bold {
+  font-weight: 700;
+}
+.font-w-black {
+  font-weight: 900;
+}
+
+/* font size */
+.font-s-xxlarge {
+  font-size: 4em; /*56px*/
+}
+.font-s-xlarge {
+  font-size: 2.28571428em; /*32px*/
+}
+.font-s-large {
+  font-size: 2em; /*28px*/
+}
+.font-s-med {
+  font-size: 1.57142857em; /*22px*/
+}
+.font-s-reg {
+  font-size: 1.28571428em; /*18px*/
+}
+.font-s-sm {
+  font-size: 1.14285714em; /*16px*/
+}
+.font-s-xsm {
+  font-size: 0.857142857em; /*12px*/
+}
+
+@media screen and (max-width: 1180px) {
+  .font-s-xxlarge {
+    font-size: 2.42857142em; /*34px*/
+  }
+  .font-s-large {
+    font-size: 1.71428571em; /*24px*/
+  }
+  .font-s-med {
+    font-size: 1.42857142em; /*20px*/
+  }
+  .font-s-reg {
+    font-size: 1em; /*14px*/
+  }
+}

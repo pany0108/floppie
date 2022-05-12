@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="circle" transform="translate(-134 -1023)">
+    <rect id="Boundary" width="24" height="24" transform="translate(134 1023)" fill="none"/>
+    <path id="_Color" data-name=" ↳Color" d="M2,16a2,2,0,1,1,2-2A2,2,0,0,1,2,16Zm0-6A2,2,0,1,1,4,8,2,2,0,0,1,2,10ZM2,4A2,2,0,1,1,4,2,2,2,0,0,1,2,4Z" transform="translate(144 1027)" fill="#6a6a6a"/>
+  </g>
+</svg>

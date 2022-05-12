@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+/****************************************************************************** 
+  Selection CSS
+******************************************************************************/
+.selection-wrapper {
+  width: 74px;
+  position: relative;
+}
+.selection {
+  width: 100%;
+  min-height: 33px;
+  border: 1px solid #dddddd;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  background-color: #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  outline: none;
+}
+.selection .select {
+  cursor: pointer;
+  padding: 8px 16px;
+}
+.selection .select .icon.dropdown {
+  position: absolute;
+  right: 16px;
+}
+.selection .selection-menu {
+  width: 100%;
+  left: 0;
+  display: none;
+  z-index: 9;
+}
+.selection .selection-menu li {
+  padding: 8px 16px;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.6);
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+.selection .selection-menu li:hover {
+  background-color: #f2f2f2;
+}
+.selection-item-en {
+  display: none;
+}

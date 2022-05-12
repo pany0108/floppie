@@ -1,0 +1,19 @@
+<svg id="ico-board4" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <rect id="사각형_91" data-name="사각형 91" width="28" height="28" fill="none"/>
+  <g id="그룹_205" data-name="그룹 205" transform="translate(0 -1)">
+    <g id="그룹_203" data-name="그룹 203" transform="translate(-51.859 -176.479)">
+      <g id="그룹_201" data-name="그룹 201" transform="translate(61.859 183.479)">
+        <g id="그룹_199" data-name="그룹 199" transform="translate(3.272)">
+          <rect id="사각형_93" data-name="사각형 93" width="1.643" height="9.705"/>
+        </g>
+        <g id="그룹_200" data-name="그룹 200" transform="translate(0 5.612)">
+          <path id="패스_63" data-name="패스 63" d="M66.628,196.236l-4.093-4.093,1.162-1.162,2.932,2.932,2.932-2.932,1.162,1.162Z" transform="translate(-62.535 -190.981)"/>
+        </g>
+      </g>
+    </g>
+    <g id="그룹_204" data-name="그룹 204" transform="translate(0.17)">
+      <path id="패스_65" data-name="패스 65" d="M8.156,16.7H3.83v6.827h9.992" transform="translate(1)" fill="none" stroke="#000" stroke-width="1.6"/>
+      <path id="패스_66" data-name="패스 66" d="M9.5,16.7h4.326v6.827H3.83" transform="translate(9)" fill="none" stroke="#000" stroke-width="1.6"/>
+    </g>
+  </g>
+</svg>

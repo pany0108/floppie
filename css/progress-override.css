@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+/****************************************************************************** 
+  Progress CSS
+******************************************************************************/
+.progress-wrapper {
+  padding: 40px;
+  margin: 40px 0;
+  border: 1px solid #dddddd;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  overflow: hidden;
+}
+
+.progress-title {
+  margin-bottom: 24px;
+}
+.progress-label,
+.progress-legends {
+  margin-bottom: 16px;
+}
+.progress-total-cnt {
+  margin-top: 16px;
+}
+
+.progress-legends .legend + .legend {
+  margin-left: 60px;
+}
+.progress-legends .legend::before {
+  content: '';
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  margin-right: 8px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  vertical-align: middle;
+}
+.progress-legends .legend.red:before {
+  background: #ff2e2e;
+}
+.progress-legends .legend.blue:before {
+  background: #26a0df;
+}
+.progress-legends .legend.green:before {
+  background: #1ec900;
+}
+.legend.red .legend-value {
+  color: #ff2e2e;
+}
+.legend.blue .legend-value {
+  color: #26a0df;
+}
+.legend.green .legend-value {
+  color: #1ec900;
+}
+.legend-title + .legend-value {
+  margin-left: 16px;
+}
+
+.ui.progress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%;
+  margin: 0;
+  background: #ededed;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  position: relative;
+}
+.ui.progress .bar {
+  min-height: 16px;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  overflow: hidden;
+  transition: width 0.1s ease, background-color 0.1s ease;
+  -webkit-transition: width 0.1s ease, background-color 0.1s ease;
+  -moz-transition: width 0.1s ease, background-color 0.1s ease;
+  -ms-transition: width 0.1s ease, background-color 0.1s ease;
+  -o-transition: width 0.1s ease, background-color 0.1s ease;
+}
+
+.ui.progress .red.bar {
+  background: -o-linear-gradient(left, #ffb99a, #ff6720);
+  background: -webkit-gradient(linear, left top, right top, from(#ffb99a), to(#ff6720));
+  background: linear-gradient(to right, #ffb99a, #ff6720);
+}
+.ui.progress .blue.bar {
+  background: -o-linear-gradient(left, #b1dbff, #58b2ff);
+  background: -webkit-gradient(linear, left top, right top, from(#b1dbff), to(#58b2ff));
+  background: linear-gradient(to right, #b1dbff, #58b2ff);
+}
+.ui.progress .green.bar {
+  background: -o-linear-gradient(left, #98de8c, #1ec900);
+  background: -webkit-gradient(linear, left top, right top, from(#98de8c), to(#1ec900));
+  background: linear-gradient(to right, #98de8c, #1ec900);
+}
+
+.ui.progress .bar::after {
+  display: none;
+}
+
+@media screen and (max-width: 1180px) {
+  .progress-wrapper {
+    padding: 24px;
+    margin: 32px 0;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+  }
+
+  .progress-legends {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .progress-legends .legend {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .progress-legends .legend + .legend {
+    margin-left: 0;
+    margin-top: 16px;
+  }
+  .progress-legends .legend::before {
+    width: 18px;
+    height: 18px;
+  }
+  .progress-legends .legend-title + .legend-value {
+    margin-left: auto;
+  }
+
+  .progress-connected-storages .ui.progress {
+    display: none;
+  }
+  .progress-connected-storages .progress-total-cnt {
+    display: none;
+  }
+}

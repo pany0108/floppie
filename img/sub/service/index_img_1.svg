@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="327.037" height="331" viewBox="0 0 327.037 331">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a972ff"/>
+      <stop offset="1" stop-color="#f1eafd"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.205" y1="0.193" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffb99a"/>
+      <stop offset="1" stop-color="#ff6720"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.26" y1="0.197" x2="0.985" y2="0.819" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e8f4ff"/>
+      <stop offset="1" stop-color="#8dc8ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.208" y1="0.252" x2="0.899" y2="0.94" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="0.099" y1="0.132" x2="0.773" xlink:href="#linear-gradient-2"/>
+  </defs>
+  <g id="index_img_1" transform="translate(-477 -1467.5)">
+    <rect id="box" width="121" height="156" rx="11" transform="translate(575 1642.5)" fill="url(#linear-gradient)"/>
+    <g id="자물쇠" transform="translate(-28.815 679.047)">
+      <path id="패스_30" data-name="패스 30" d="M635.556,828.862V815.921A19.921,19.921,0,0,1,655.477,796h0A19.921,19.921,0,0,1,675.4,815.921v12.941" transform="translate(9.346)" fill="none" stroke="#ff6720" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+      <circle id="타원_17" data-name="타원 17" cx="44.823" cy="44.823" r="44.823" transform="translate(620 821.26)" fill="url(#linear-gradient-2)"/>
+      <circle id="타원_18" data-name="타원 18" cx="9.961" cy="9.961" r="9.961" transform="translate(654.862 856.123)" fill="#fff"/>
+    </g>
+    <g id="구름">
+      <path id="패스_12" data-name="패스 12" d="M971.5,769.626a31.509,31.509,0,0,0-47.036-5.7,51.825,51.825,0,0,0-82.9-46.243,64.828,64.828,0,1,0-128.907,12.1,44.905,44.905,0,1,0-7.482,89.135H945.487C970.98,818.92,985.7,790.272,971.5,769.626Z" transform="translate(-173 895.009)" fill="url(#linear-gradient-3)"/>
+      <path id="패스_16" data-name="패스 16" d="M971.5,769.626a31.509,31.509,0,0,0-47.036-5.7,51.825,51.825,0,0,0-82.9-46.243,64.828,64.828,0,1,0-128.907,12.1,44.905,44.905,0,1,0-7.482,89.135H945.487C970.98,818.92,985.7,790.272,971.5,769.626Z" transform="translate(-183 905.009)" opacity="0.9" fill="url(#linear-gradient-4)"/>
+    </g>
+    <circle id="circle-1" cx="18" cy="18" r="18" transform="translate(695 1467.5)" opacity="0.44" fill="url(#linear-gradient-5)"/>
+    <circle id="circle-2" cx="9.5" cy="9.5" r="9.5" transform="translate(755 1563.5)" opacity="0.44" fill="url(#linear-gradient-5)"/>
+    <circle id="circle-3" cx="7" cy="7" r="7" transform="translate(516 1524.5)" opacity="0.44" fill="url(#linear-gradient-5)"/>
+  </g>
+</svg>

@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1, user-scalable=yes,initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="../../css/style.css" />
+
+    <title>Floppie</title>
+  </head>
+
+  <body>
+    <header class="d-flex flex-row align-items-center">
+      <div class="container d-flex flex-row align-items-center">
+        <div>
+          <a href="../../index.html"><img src="../../img/common/logo.svg" alt="" class="logo" /></a>
+        </div>
+
+        <nav class="menu gnb d-flex flex-row">
+          <a href="../browser/browser.html" class="item"><span data-i18n="NAV:BROWSER"></span></a>
+
+          <div class="dropdown item">
+            <span data-i18n="NAV:SERVICE"></span>
+            <i class="dropdown icon"></i>
+            <div class="menu transition">
+              <div class="d-flex flex-col flex-nowrap">
+                <a href="../service/service.html" class="item" data-i18n="NAV:ADVANTAGE"></a>
+                <a href="../service/service.html#howItWorks" class="item" data-i18n="NAV:HOW_IT_WORKS"></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="dropdown item">
+            <span data-i18n="NAV:GETTING_STARTED"></span>
+            <i class="dropdown icon"></i>
+            <div class="menu transition">
+              <div class="d-flex flex-col flex-nowrap">
+                <a href="../gettingStarted/gettingStarted.html" class="item" data-i18n="NAV:CREATING_ACCOUNT"></a>
+                <a href="../gettingStarted/gettingStarted.html#settingStorages" class="item" data-i18n="NAV:SETTING_STORAGES"></a>
+                <a href="../gettingStarted/gettingStarted.html#managingData" class="item" data-i18n="NAV:MANAGING_DATA"></a>
+              </div>
+            </div>
+          </div>
+
+          <a href="../faq/faq.html" class="item"><span data-i18n="NAV:FAQ"></span></a>
+        </nav>
+
+        <div class="right menu d-flex flex-row align-items-start">
+          <div class="dropdown item">
+            <div class="button sm" data-i18n="NAV:SIGN_IN"></div>
+            <div class="menu transition">
+              <div class="d-flex flex-col">
+                <a href="#" class="item button bordered font-w-med font-s-sm d-flex align-items-center"
+                  ><i class="google icon"></i> Sign in with Google<i class="icon dropdown"></i
+                ></a>
+                <a href="#" class="item button bordered font-w-med font-s-sm d-flex align-items-center"
+                  ><i class="onedrive icon"></i> Sign in with Onedrive<i class="icon dropdown"></i
+                ></a>
+                <a href="#" class="item button bordered font-w-med font-s-sm d-flex align-items-center"
+                  ><i class="naver icon"></i> Sign in with NAVER<i class="icon dropdown"></i
+                ></a>
+              </div>
+
+              <div class="divider"></div>
+
+              <div class="font-light"><span class="pt-color">OR</span> Register with your cloud</div>
+
+              <div>
+                <a href="#" class="item button brand google font-w-med font-s-sm">Google</a>
+                <a href="#" class="item button brand onedrive font-w-med font-s-sm">Onedrive</a>
+                <a href="#" class="item button brand naver font-w-med font-s-sm">NAVER</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- NOTE: 로그인 시 SHOWN
+          <div class="dropdown item">
+            <div class="button sm" data-i18n="NAV:SETTINGS"></div>
+            <div class="menu transition">
+              <div class="d-flex flex-col flex-nowrap">
+                <a href="../user/personalInfo.html" class="item" data-i18n="NAV:PERSONAL_INFO"></a>
+                <a href="../user/storageManagement.html" class="item" data-i18n="NAV:STORAGE_MANAGEMENT"></a>
+                <a href="#signout" class="item signout-btn" data-i18n="NAV:SIGN_OUT"></a>
+              </div>
+            </div>
+          </div>
+          -->
+
+          <div class="selection-wrapper">
+            <div class="selection">
+              <div class="select">
+                <span>ENG</span>
+                <i class="dropdown icon"></i>
+              </div>
+              <input type="hidden" name="lang" value="en" />
+              <ul class="selection-menu">
+                <li value="en" class="selection-item-en" onclick="changeLang('en-US');">ENG</li>
+                <li value="ko" class="selection-item-ko" onclick="changeLang('ko-KR');">KOR</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="dim-bg-dropdown"></div>
+        </div>
+
+        <!-- mobile nav -->
+        <div class="mob-nav-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div class="menu mobile">
+          <nav>
+            <a href="../browser/browser.html" class="title font-w-bold font-s-reg d-flex align-items-center justify-content-space-between">
+              <span data-i18n="NAV:BROWSER"></span>
+              <i class="icon dropdown large"></i
+            ></a>
+
+            <div class="title has-subnav font-w-bold font-s-reg d-flex align-items-center justify-content-space-between">
+              <span data-i18n="NAV:SERVICE"></span>
+              <i class="icon dropdown large"></i>
+            </div>
+            <div class="content">
+              <a href="../service/service.html" data-i18n="NAV:ADVANTAGE"></a>
+              <a href="../service/service.html#howItWorks" data-i18n="NAV:HOW_IT_WORKS"></a>
+            </div>
+
+            <div class="title has-subnav font-w-bold font-s-reg d-flex align-items-center justify-content-space-between">
+              <span data-i18n="NAV:GETTING_STARTED"></span>
+              <i class="icon dropdown large"></i>
+            </div>
+            <div class="content">
+              <a href="../gettingStarted/gettingStarted.html" data-i18n="NAV:CREATING_ACCOUNT"></a>
+              <a href="../gettingStarted/gettingStarted.html#settingStorages" data-i18n="NAV:SETTING_STORAGES"></a>
+              <a href="../gettingStarted/gettingStarted.html#managingData" data-i18n="NAV:MANAGING_DATA"></a>
+            </div>
+
+            <a href="../faq/faq.html" class="title font-w-bold font-s-reg d-flex align-items-center justify-content-space-between">
+              <span data-i18n="NAV:FAQ"></span>
+              <i class="icon dropdown large"></i
+            ></a>
+          </nav>
+
+          <div class="lng-select-wrapper mobile d-flex flex-row">
+            <div value="en" class="lng-select-item button bordered active" onclick="changeLang('en-US');">ENG</div>
+            <div value="ko" class="lng-select-item button bordered" onclick="changeLang('ko-KR');">KOR</div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container d-flex flex-row align-items-center justify-content-center">
+        <div>
+          <div class="main-txt">
+            <div class="main-txt1 font-w-black font-s-xxlarge" data-i18n="SERVICE:SLOGAN_1"></div>
+            <div class="main-txt1 font-w-black font-s-xxlarge" data-i18n="SERVICE:SLOGAN_2"></div>
+            <div class="main-txt2 font-w-light font-s-med" data-i18n="SERVICE:SUB_SLOGAN_1"></div>
+            <div class="main-txt2 font-w-light font-s-med" data-i18n="SERVICE:SUB_SLOGAN_2"></div>
+          </div>
+
+          <a href="#" class="button font-w-bold" data-i18n="SERVICE:LEARN_MORE"></a>
+        </div>
+
+        <div class="main-visual">
+          <img src="../../img/sub/service/index_visual.png" class="mob_hidden" alt="" />
+          <img src="../../img/mobile/sub/service/index_visual_m.png" class="pc_hidden" alt="" />
+        </div>
+      </div>
+    </main>
+
+    <section id="advantages">
+      <div class="container">
+        <div class="section-title"><img src="../../img/common/logo.svg" alt="" class="logo large" /></div>
+
+        <div class="slider">
+          <div class="slide">
+            <div class="slide-contents">
+              <i class="icon service01"></i>
+              <div class="slide-title font-w-bold font-s-med" data-i18n="SERVICE:ADVANTAGE_TITLE_1"></div>
+              <div class="slide-detail font-w-light font-s-reg" data-i18n="SERVICE:ADVANTAGE_DETAIL_1"></div>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="slide-contents">
+              <i class="icon service02"></i>
+              <div class="slide-title font-w-bold font-s-med" data-i18n="SERVICE:ADVANTAGE_TITLE_2"></div>
+              <div class="slide-detail font-w-light font-s-reg" data-i18n="SERVICE:ADVANTAGE_DETAIL_2"></div>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="slide-contents">
+              <i class="icon service03"></i>
+              <div class="slide-title font-w-bold font-s-med" data-i18n="SERVICE:ADVANTAGE_TITLE_3"></div>
+              <div class="slide-detail font-w-light font-s-reg" data-i18n="SERVICE:ADVANTAGE_DETAIL_3"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="howItWorks">
+      <div class="container">
+        <div class="section-title font-w-black font-s-xxlarge" data-i18n="SERVICE:HOW_IT_WORKS"></div>
+
+        <div class="step d-flex">
+          <div class="flex-1 d-flex align-items-center justify-content-center">
+            <img src="../../img/sub/service/index_img_1.svg" alt="" class="step_img01" />
+          </div>
+          <div class="contents right-aligned flex-1">
+            <div class="step-txt pt-color font-w-med font-s-med" data-i18n="SERVICE:STEP_1"></div>
+            <div class="step-txt step-title font-w-bold font-s-large" data-i18n="SERVICE:STEP_1_TITLE"></div>
+            <div class="step-txt step-detail font-w-light font-s-reg" data-i18n="SERVICE:STEP_1_DETAIL"></div>
+
+            <div class="accordion">
+              <ul>
+                <li>
+                  <div class="accordion-title d-flex align-items-start justify-content-space-between">
+                    <div class="font-w-med pt-color font-s-med" data-i18n="SERVICE:STEP_1_QUESTION_1"></div>
+                    <img src="../../img/common/arrow_colored.svg" class="accordion-arrow" alt="" />
+                  </div>
+                  <div class="accordion-detail font-light font-s-reg" data-i18n="SERVICE:STEP_1_ANSWER_1"></div>
+                </li>
+                <li>
+                  <div class="accordion-title d-flex align-items-start justify-content-space-between">
+                    <div class="font-w-med pt-color font-s-med" data-i18n="SERVICE:STEP_1_QUESTION_2"></div>
+                    <img src="../../img/common/arrow_colored.svg" class="accordion-arrow" alt="" />
+                  </div>
+                  <div class="accordion-detail font-light font-s-reg" data-i18n="SERVICE:STEP_1_ANSWER_2"></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="step d-flex">
+          <div class="contents left-aligned flex-1">
+            <div class="step-txt pt-color font-w-med font-s-med" data-i18n="SERVICE:STEP_2"></div>
+            <div class="step-txt step-title font-w-bold font-s-large" data-i18n="SERVICE:STEP_2_TITLE"></div>
+            <div class="step-txt step-detail font-w-light font-s-reg" data-i18n="SERVICE:STEP_2_DETAIL"></div>
+
+            <div class="accordion">
+              <ul>
+                <li>
+                  <div class="accordion-title d-flex align-items-start justify-content-space-between">
+                    <div class="font-w-med pt-color font-s-med" data-i18n="SERVICE:STEP_2_QUESTION_1"></div>
+                    <img src="../../img/common/arrow_colored.svg" class="accordion-arrow" alt="" />
+                  </div>
+                  <div class="accordion-detail font-light font-s-reg" data-i18n="SERVICE:STEP_2_ANSWER_1"></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="flex-1 d-flex align-items-center justify-content-center">
+            <img src="../../img/sub/service/index_img_2.svg" alt="" class="step_img02" />
+          </div>
+        </div>
+
+        <div class="step d-flex">
+          <div class="flex-1 d-flex align-items-center justify-content-center">
+            <img src="../../img/sub/service/index_img_3.svg" alt="" class="step_img03" />
+          </div>
+          <div class="contents right-aligned flex-1">
+            <div class="step-txt pt-color font-w-med font-s-med" data-i18n="SERVICE:STEP_3"></div>
+            <div class="step-txt step-title font-w-bold font-s-large" data-i18n="SERVICE:STEP_3_TITLE"></div>
+            <div class="step-txt step-detail font-w-light font-s-reg" data-i18n="SERVICE:STEP_3_DETAIL"></div>
+
+            <div class="accordion">
+              <ul>
+                <li>
+                  <div class="accordion-title d-flex align-items-start justify-content-space-between">
+                    <div class="font-w-med pt-color font-s-med" data-i18n="SERVICE:STEP_3_QUESTION_1"></div>
+                    <img src="../../img/common/arrow_colored.svg" class="accordion-arrow" alt="" />
+                  </div>
+                  <div class="accordion-detail font-light font-s-reg" data-i18n="SERVICE:STEP_3_ANSWER_1"></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="step d-flex">
+          <div class="contents left-aligned flex-1">
+            <div class="step-txt pt-color font-w-med font-s-med" data-i18n="SERVICE:STEP_4"></div>
+            <div class="step-txt step-title font-w-bold font-s-large" data-i18n="SERVICE:STEP_4_TITLE"></div>
+            <div class="step-txt step-detail font-w-light font-s-reg" data-i18n="SERVICE:STEP_4_DETAIL"></div>
+
+            <div class="accordion">
+              <ul>
+                <li>
+                  <div class="accordion-title d-flex align-items-start justify-content-space-between">
+                    <div class="font-w-med pt-color font-s-med" data-i18n="SERVICE:STEP_4_QUESTION_1"></div>
+                    <img src="../../img/common/arrow_colored.svg" class="accordion-arrow" alt="" />
+                  </div>
+                  <div class="accordion-detail font-light font-s-reg" data-i18n="SERVICE:STEP_4_ANSWER_1"></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="flex-1 d-flex align-items-center justify-content-center">
+            <img src="../../img/sub/service/index_img_4.svg" alt="" class="step_img04" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container d-flex flex-row align-items-start">
+        <div>
+          <div><img src="../../img/common/logo_w.svg" alt="" class="logo" /></div>
+          <div class="corp-info font-white footer-txt">Floppie Foundation LTD.</div>
+          <div class="corp-info font-white footer-txt">
+            Contact us : <a href="mailto:support@floppie.io" class="font-white">support@floppie.io</a>
+          </div>
+        </div>
+
+        <nav class="d-flex flex-row">
+          <div class="nav-item d-flex flex-col">
+            <a href="../browser/browser.html" class="nav-title font-white font-w-bold font-s-sm" data-i18n="NAV:BROWSER"></a>
+          </div>
+          <div class="nav-item d-flex flex-col">
+            <div class="nav-title has-subnav font-white font-w-bold font-s-sm" data-i18n="NAV:SERVICE"></div>
+            <div class="footer-sub-nav">
+              <a href="../service/service.html" class="nav-link font-white font-s-xsm" data-i18n="NAV:ADVANTAGE"></a>
+              <a href="../service/service.html#howItWorks" class="nav-link font-white font-s-xsm" data-i18n="NAV:HOW_IT_WORKS"></a>
+            </div>
+          </div>
+          <div class="nav-item d-flex flex-col">
+            <div class="nav-title has-subnav font-white font-w-bold font-s-sm" data-i18n="NAV:GETTING_STARTED"></div>
+            <div class="footer-sub-nav">
+              <a href="../gettingStarted/gettingStarted.html" class="nav-link font-white font-s-xsm" data-i18n="NAV:CREATING_ACCOUNT"></a>
+              <a
+                href="../gettingStarted/gettingStarted.html#settingStorages"
+                class="nav-link font-white font-s-xsm"
+                data-i18n="NAV:SETTING_STORAGES"
+              ></a>
+              <a href="../gettingStarted/gettingStarted.html#managingData" class="nav-link font-white font-s-xsm" data-i18n="NAV:MANAGING_DATA"></a>
+            </div>
+          </div>
+          <div class="nav-item d-flex flex-col">
+            <a href="../faq/faq.html" class="nav-title font-white font-w-bold font-s-sm" data-i18n="NAV:FAQ"></a>
+          </div>
+        </nav>
+
+        <div class="corp-item-wrapper">
+          <a href="#terms" class="corp-item font-white link">Terms of service</a>
+          <a href="#policy" class="corp-item font-white link">Privacy policy</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Sign Out Modal -->
+    <div id="signout" class="ui modal sm">
+      <a href="javascript:void(0)" class="modal-close">Close</a>
+
+      <div class="modal-title font-w-bold font-s-xlarge" data-i18n="SIGN_OUT:TITLE1"></div>
+      <div class="modal-title font-w-bold font-s-xlarge" data-i18n="SIGN_OUT:TITLE2"></div>
+      <div class="modal-contents font-light font-s-med d-flex align-items-center justify-content-space-between">
+        <button class="button modal-btn" data-i18n="SIGN_OUT:YES"></button>
+        <button class="button modal-btn gray" data-i18n="SIGN_OUT:NO"></button>
+      </div>
+    </div>
+
+    <!-- Terms of service Modal -->
+    <div id="terms" class="ui modal">
+      <a href="javascript:void(0)" class="modal-close">Close</a>
+
+      <div class="modal-title font-w-bold font-s-xlarge" data-i18n="TERMS:TITLE"></div>
+      <div class="modal-contents font-light font-s-med" data-i18n="TERMS:CONTENTS"></div>
+    </div>
+
+    <!-- Privacy policy Modal -->
+    <div id="policy" class="ui modal">
+      <a href="javascript:void(0)" class="modal-close">Close</a>
+
+      <div class="modal-title font-w-bold font-s-xlarge" data-i18n="POLICY:TITLE"></div>
+      <div class="modal-contents font-light font-s-med" data-i18n="POLICY:CONTENTS"></div>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/i18next/1.9.0/i18next.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.8/dist/components/dimmer.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.8/dist/components/modal.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.8/dist/components/transition.min.js"></script>
+    <script type="text/javascript" src="../../js/style.js"></script>
+    <script type="text/javascript" src="../../js/globalization.js"></script>
+
+    <script type="text/javascript">
+      $(function () {
+        $('.slider').slick({
+          infinite: true,
+          arrows: false,
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                centerMode: true,
+                centerPadding: '28px',
+              },
+            },
+          ],
+        });
+      });
+    </script>
+  </body>
+</html>

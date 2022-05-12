@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+/****************************************************************************** 
+  Icon CSS
+******************************************************************************/
+.icon::before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  background-size: cover !important;
+}
+
+.icon.dropdown::before {
+  width: 7px;
+  height: 4px;
+  background: url(../img/common/arow_down_small_b.svg) no-repeat center top;
+}
+.icon.dropdown.large::before {
+  width: 14px;
+  height: 8px;
+}
+.icon.link::before {
+  width: 24px;
+  height: 24px;
+  background: url(../img/common/link_ico.svg) no-repeat center top;
+}
+
+.icon.service01::before {
+  width: 124px;
+  height: 124px;
+  background: url(../img/sub/service/ico-service-1.svg) no-repeat left top;
+}
+.icon.service02::before {
+  width: 124px;
+  height: 124px;
+  background: url(../img/sub/service/ico-service-2.svg) no-repeat left top;
+}
+.icon.service03::before {
+  width: 124px;
+  height: 124px;
+  background: url(../img/sub/service/ico-service-3.svg) no-repeat left top;
+}
+
+.icon.google::before {
+  width: 34px;
+  height: 34px;
+  margin-right: 8px;
+  background: url(../img/common/google_ico.svg) no-repeat left top;
+}
+.icon.onedrive::before {
+  width: 34px;
+  height: 34px;
+  margin-right: 8px;
+  background: url(../img/common/onedrive_ico.svg) no-repeat left top;
+}
+.icon.naver::before {
+  width: 34px;
+  height: 34px;
+  margin-right: 8px;
+  background: url(../img/common/naver_ico.svg) no-repeat left top;
+}
+
+.icon.google.large::before {
+  width: 46px;
+  height: 46px;
+  margin-right: 16px;
+  background: url(../img/sub/storageManagement/google_ico.svg) no-repeat left top;
+}
+.icon.onedrive.large::before {
+  width: 46px;
+  height: 46px;
+  margin-right: 16px;
+  background: url(../img/sub/storageManagement/onedrive_ico.svg) no-repeat left top;
+}
+.icon.mybox.large::before {
+  width: 46px;
+  height: 46px;
+  margin-right: 16px;
+  background: url(../img/sub/storageManagement/naver_mybox_ico.png) no-repeat left top;
+}
+
+.icon.folder::before {
+  width: 40px;
+  height: 40px;
+  margin: 0 16px;
+  background: url(../img/grid/folder-ico.svg) no-repeat left top;
+}
+.icon.grid-popup-menu::before {
+  width: 24px;
+  height: 24px;
+  background: url(../img/grid/grid-popup-ico.svg) no-repeat left top;
+}
+
+.icon.version::before {
+  width: 28px;
+  height: 28px;
+  margin-right: 8px;
+  background: url(../img/grid/grid-ico1.svg) no-repeat left top;
+}
+.icon.copy::before {
+  width: 28px;
+  height: 28px;
+  margin-right: 8px;
+  background: url(../img/grid/grid-ico2.svg) no-repeat left top;
+}
+.icon.report::before {
+  width: 28px;
+  height: 28px;
+  margin-right: 8px;
+  background: url(../img/grid/grid-ico3.svg) no-repeat left top;
+}
+.icon.download::before {
+  width: 28px;
+  height: 28px;
+  margin-right: 8px;
+  background: url(../img/grid/grid-ico4.svg) no-repeat left top;
+}
+.icon.remove::before {
+  width: 28px;
+  height: 28px;
+  margin-right: 8px;
+  background: url(../img/grid/grid-ico5.svg) no-repeat left top;
+}
+
+@media screen and (max-width: 1180px) {
+  .icon.folder::before {
+    margin: 0 0 4px;
+  }
+  .icon.google.large::before,
+  .icon.onedrive.large::before,
+  .icon.mybox.large::before {
+    width: 32px;
+    height: 32px;
+  }
+  .icon.link::before {
+    width: 19px;
+    height: 19px;
+  }
+  .icon.service01::before,
+  .icon.service02::before,
+  .icon.service03::before {
+    width: 85px;
+    height: 85px;
+  }
+}

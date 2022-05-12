@@ -1,0 +1,9 @@
+<svg id="로그인_아이콘" xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+  <rect id="사각형_58" data-name="사각형 58" width="34" height="34" fill="none"/>
+  <g id="그룹_130" data-name="그룹 130" transform="translate(-581.062 -615.945)">
+    <path id="패스_39" data-name="패스 39" d="M704.078,710.323a14.193,14.193,0,0,0-.225-2.528H692.211v4.781h6.653a5.687,5.687,0,0,1-2.467,3.731v3.1h3.995a12.056,12.056,0,0,0,3.686-9.085Z" transform="translate(-93.788 -76.736)" fill="#3e82f1" fill-rule="evenodd"/>
+    <path id="패스_40" data-name="패스 40" d="M608.4,757.275a11.8,11.8,0,0,0,8.181-2.995l-3.995-3.1a7.457,7.457,0,0,1-11.1-3.916h-4.13v3.2a12.356,12.356,0,0,0,11.046,6.81Z" transform="translate(-9.976 -111.607)" fill="#32a753" fill-rule="evenodd"/>
+    <path id="패스_41" data-name="패스 41" d="M591.507,687.324a7.308,7.308,0,0,1,0-4.7v-3.2h-4.13a12.376,12.376,0,0,0,0,11.1l4.13-3.2Z" transform="translate(0 -51.669)" fill="#f9bb00" fill-rule="evenodd"/>
+    <path id="패스_42" data-name="패스 42" d="M608.4,625.861a6.678,6.678,0,0,1,4.725,1.849l3.545-3.545a11.879,11.879,0,0,0-8.271-3.22,12.356,12.356,0,0,0-11.046,6.81l4.13,3.2a7.367,7.367,0,0,1,6.917-5.1Z" transform="translate(-9.976 0)" fill="#e74133" fill-rule="evenodd"/>
+  </g>
+</svg>

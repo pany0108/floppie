@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="124" height="124" viewBox="0 0 124 124">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.119" y1="0.1" x2="0.857" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b1dbff"/>
+      <stop offset="1" stop-color="#58b2ff"/>
+    </linearGradient>
+    <filter id="사각형_23" x="0" y="0" width="124" height="124" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feFlood flood-color="#58b2ff" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="ico-service-2" transform="translate(27 22)">
+    <g transform="matrix(1, 0, 0, 1, -27, -22)" filter="url(#사각형_23)">
+      <rect id="사각형_23-2" data-name="사각형 23" width="70" height="70" rx="12" transform="translate(27 22)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="그룹_95" data-name="그룹 95" transform="translate(-384 -781)">
+      <path id="패스_21" data-name="패스 21" d="M419,795s-4.134,9.694-17,7.846v19.4c.334,1.126-1.149,10.241,17,14.757,18.149-4.516,16.665-13.631,17-14.757v-19.4C423.134,804.693,419,795,419,795Z" transform="translate(0 0)" fill="#fff"/>
+      <path id="패스_22" data-name="패스 22" d="M422,828.84l5.681,5.394h0L435.634,826" transform="translate(-8.686 -13.409)" fill="none" stroke="#70bdff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

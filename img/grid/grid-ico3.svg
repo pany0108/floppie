@@ -1,0 +1,10 @@
+<svg id="ico-board3" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <rect id="사각형_58" data-name="사각형 58" width="28" height="28" fill="none"/>
+  <g id="그룹_196" data-name="그룹 196" transform="translate(-660 -1646)">
+    <g id="타원_50" data-name="타원 50" transform="translate(666 1652)" fill="none" stroke="#000" stroke-width="1.6">
+      <circle cx="8" cy="8" r="8" stroke="none"/>
+      <circle cx="8" cy="8" r="7.2" fill="none"/>
+    </g>
+    <path id="패스_60" data-name="패스 60" d="M1100.749,141.522a.847.847,0,1,1,1.693,0,.828.828,0,0,1-.25.6.838.838,0,0,1-1.2,0A.83.83,0,0,1,1100.749,141.522Zm1.608-2.5a1.521,1.521,0,0,1-.188.847.729.729,0,0,1-1.144,0,1.51,1.51,0,0,1-.19-.844v-2.863a1.477,1.477,0,0,1,.19-.832.733.733,0,0,1,1.144,0,1.487,1.487,0,0,1,.188.835Z" transform="translate(-427.594 1521.284)"/>
+  </g>
+</svg>

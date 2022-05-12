@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="124" height="124" viewBox="0 0 124 124">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.119" y1="0.1" x2="0.857" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#cfb1ff"/>
+      <stop offset="1" stop-color="#a065ff"/>
+    </linearGradient>
+    <filter id="사각형_23" x="0" y="0" width="124" height="124" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feFlood flood-color="#a065ff" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="ico-service-3" transform="translate(27 22)">
+    <g transform="matrix(1, 0, 0, 1, -27, -22)" filter="url(#사각형_23)">
+      <rect id="사각형_23-2" data-name="사각형 23" width="70" height="70" rx="12" transform="translate(27 22)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="그룹_101" data-name="그룹 101" transform="translate(-639.263 -517.989)">
+      <path id="패스_26" data-name="패스 26" d="M676.47,562.661a15.206,15.206,0,1,1,15.206-15.205A15.222,15.222,0,0,1,676.47,562.661Z" transform="translate(-2.538)" fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="패스_27" data-name="패스 27" d="M680.7,558.632a6.942,6.942,0,1,1,6.943-6.943A6.95,6.95,0,0,1,680.7,558.632Z" transform="translate(-6.772 -4.234)" fill="none" stroke="#c5a0ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="패스_28" data-name="패스 28" d="M686.825,575.66l10.732,10.732.06-8.333,8.332-.06-8.376-8.376" transform="translate(-11.198 -12.663)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="패스_29" data-name="패스 29" d="M662.15,569.624,653.775,578l8.332.06.06,8.333L672.9,575.654" transform="translate(0 -12.663)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

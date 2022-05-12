@@ -1,0 +1,7 @@
+<svg id="로그인_아이콘" xmlns="http://www.w3.org/2000/svg" width="34" height="33" viewBox="0 0 34 33">
+  <rect id="사각형_58" data-name="사각형 58" width="33" height="33" fill="none"/>
+  <g id="그룹_135" data-name="그룹 135" transform="translate(5 4)">
+    <path id="사각형_61" data-name="사각형 61" d="M2.867,0H21.132A2.868,2.868,0,0,1,24,2.868V21.132A2.868,2.868,0,0,1,21.132,24H2.868A2.868,2.868,0,0,1,0,21.132V2.867A2.867,2.867,0,0,1,2.867,0Z" transform="translate(0 0)" fill="#00c300"/>
+    <path id="패스_45" data-name="패스 45" d="M481.409,404.282l-4-5.746h-3.316v10.736h3.474v-5.746l4,5.746h3.316V398.536h-3.474Z" transform="translate(-467.488 -391.904)" fill="#fff"/>
+  </g>
+</svg>

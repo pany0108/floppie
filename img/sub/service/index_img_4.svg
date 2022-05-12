@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="447" height="216" viewBox="0 0 447 216">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.037" y1="0.063" x2="0.889" y2="0.882" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffdbcb"/>
+      <stop offset="1" stop-color="#ff9c6e"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.6"/>
+    </linearGradient>
+    <filter id="사각형_40" x="9" y="14" width="422" height="110" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feFlood flood-color="#ff6720" flood-opacity="0.859"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-3" x1="0.064" y1="0.13" x2="0.856" y2="0.87" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff9a9a"/>
+      <stop offset="1" stop-color="#ff5f5f"/>
+    </linearGradient>
+    <filter id="f-1" x="101" y="94.428" width="133.196" height="116.572" filterUnits="userSpaceOnUse">
+      <feOffset dy="11" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12" result="blur-2"/>
+      <feFlood flood-color="#ff6720" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-4" x1="0.064" y1="0.13" x2="0.856" y2="0.87" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#cfb1ff"/>
+      <stop offset="1" stop-color="#a065ff"/>
+    </linearGradient>
+    <filter id="f-2" x="0" y="94.428" width="133.196" height="116.572" filterUnits="userSpaceOnUse">
+      <feOffset dy="11" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12" result="blur-3"/>
+      <feFlood flood-color="#ff6720" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-5" x1="0.064" y1="0.13" x2="0.856" y2="0.87" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#98de8c"/>
+      <stop offset="1" stop-color="#1ec900"/>
+    </linearGradient>
+    <filter id="f-3" x="202" y="94.428" width="133.196" height="116.572" filterUnits="userSpaceOnUse">
+      <feOffset dy="11" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12" result="blur-4"/>
+      <feFlood flood-color="#ff6720" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-6" x1="0.064" y1="0.13" x2="0.856" y2="0.87" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b1dbff"/>
+      <stop offset="1" stop-color="#58b2ff"/>
+    </linearGradient>
+    <filter id="f-4" x="303" y="94.428" width="133.196" height="116.572" filterUnits="userSpaceOnUse">
+      <feOffset dy="11" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12" result="blur-5"/>
+      <feFlood flood-color="#ff6720" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="그룹_367" data-name="그룹 367" transform="translate(-1058 -3068)">
+    <rect id="사각형_39" data-name="사각형 39" width="434" height="206" rx="40" transform="translate(1071 3078)" opacity="0.9" fill="url(#linear-gradient)"/>
+    <rect id="사각형_38" data-name="사각형 38" width="434" height="206" rx="40" transform="translate(1061 3068)" opacity="0.9" fill="url(#linear-gradient-2)"/>
+    <g transform="matrix(1, 0, 0, 1, 1058, 3068)" filter="url(#사각형_40)">
+      <rect id="사각형_40-2" data-name="사각형 40" width="374" height="62" rx="14" transform="translate(33 30)" fill="rgba(255,103,32,0.62)"/>
+    </g>
+    <g id="icon_action_search_24px" data-name="icon/action/search_24px" transform="translate(1411 3112)">
+      <rect id="Boundary" width="34" height="34" fill="none"/>
+      <path id="_Color" data-name=" ↳Color" d="M23.786,26h0l-7.432-7.416V17.408l-.4-.416a9.676,9.676,0,1,1,1.041-1.041l.416.4h1.175L26,23.786,23.787,26ZM9.663,2.973a6.69,6.69,0,1,0,6.69,6.69A6.7,6.7,0,0,0,9.663,2.973Z" transform="translate(4 4)" fill="#fff"/>
+    </g>
+    <text id="Data_is_retrieved_when_you_need." data-name="Data is retrieved when you need." transform="translate(1117 3137)" fill="#fff" font-size="19" font-family="Lato-Medium, Lato" font-weight="500" letter-spacing="-0.015em" opacity="0.8"><tspan x="0" y="0">Data is retrieved when you need.</tspan></text>
+    <rect id="사각형_88" data-name="사각형 88" width="51" height="51" transform="translate(1094 3181)" fill="none"/>
+    <g transform="matrix(1, 0, 0, 1, 1058, 3068)" filter="url(#f-1)">
+      <path id="f-1-2" data-name="f-1" d="M1170.69,152.645h-24.479l-6.12-6.12h-18.359a6.138,6.138,0,0,0-6.12,6.12v32.333a6.137,6.137,0,0,0,6.12,6.12h48.957a6.138,6.138,0,0,0,6.12-6.12V158.764A6.139,6.139,0,0,0,1170.69,152.645Z" transform="translate(-978.61 -27.1)" opacity="0.8" fill="url(#linear-gradient-3)"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 1058, 3068)" filter="url(#f-2)">
+      <path id="f-2-2" data-name="f-2" d="M1170.69,152.645h-24.479l-6.12-6.12h-18.359a6.138,6.138,0,0,0-6.12,6.12v32.333a6.137,6.137,0,0,0,6.12,6.12h48.957a6.138,6.138,0,0,0,6.12-6.12V158.764A6.139,6.139,0,0,0,1170.69,152.645Z" transform="translate(-1079.61 -27.1)" opacity="0.8" fill="url(#linear-gradient-4)"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 1058, 3068)" filter="url(#f-3)">
+      <path id="f-3-2" data-name="f-3" d="M1170.69,152.645h-24.479l-6.12-6.12h-18.359a6.138,6.138,0,0,0-6.12,6.12v32.333a6.137,6.137,0,0,0,6.12,6.12h48.957a6.138,6.138,0,0,0,6.12-6.12V158.764A6.139,6.139,0,0,0,1170.69,152.645Z" transform="translate(-877.61 -27.1)" opacity="0.7" fill="url(#linear-gradient-5)"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 1058, 3068)" filter="url(#f-4)">
+      <path id="f-4-2" data-name="f-4" d="M1170.69,152.645h-24.479l-6.12-6.12h-18.359a6.138,6.138,0,0,0-6.12,6.12v32.333a6.137,6.137,0,0,0,6.12,6.12h48.957a6.138,6.138,0,0,0,6.12-6.12V158.764A6.139,6.139,0,0,0,1170.69,152.645Z" transform="translate(-776.61 -27.1)" opacity="0.8" fill="url(#linear-gradient-6)"/>
+    </g>
+  </g>
+</svg>

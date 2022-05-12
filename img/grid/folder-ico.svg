@@ -1,0 +1,10 @@
+<svg id="folder" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.064" y1="0.13" x2="0.856" y2="0.87" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffb99a"/>
+      <stop offset="1" stop-color="#ff6720"/>
+    </linearGradient>
+  </defs>
+  <rect id="사각형_88" data-name="사각형 88" width="40" height="40" transform="translate(0)" fill="none"/>
+  <path id="패스_56" data-name="패스 56" d="M1151.613,150.525h-16l-4-4h-12a4.012,4.012,0,0,0-4,4v21.134a4.011,4.011,0,0,0,4,4h32a4.012,4.012,0,0,0,4-4V154.525A4.013,4.013,0,0,0,1151.613,150.525Z" transform="translate(-1115.613 -141.525)" fill="url(#linear-gradient)"/>
+</svg>

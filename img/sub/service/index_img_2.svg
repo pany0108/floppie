@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="273" height="246" viewBox="0 0 273 246">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.099" y1="0.132" x2="0.773" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b1dbff"/>
+      <stop offset="1" stop-color="#58b2ff"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <circle id="타원_31" data-name="타원 31" cx="71.243" cy="71.243" r="71.243" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" x1="0.205" y1="0.193" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffb99a"/>
+      <stop offset="1" stop-color="#ff6720"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.099" y1="0.132" x2="0.773" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff9a9a"/>
+      <stop offset="1" stop-color="#ff5f5f"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="0.099" y1="0.132" x2="0.773" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#cfb1ff"/>
+      <stop offset="1" stop-color="#a065ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="0.099" y1="0.132" x2="0.773" xlink:href="#linear-gradient-2"/>
+  </defs>
+  <g id="index_img_2" transform="translate(-1153 -2056)">
+    <circle id="타원_25" data-name="타원 25" cx="23" cy="23" r="23" transform="translate(1374 2113)" opacity="0.74" fill="url(#linear-gradient)"/>
+    <g id="자물쇠" transform="translate(-14.688 -18.909)">
+      <path id="패스_30" data-name="패스 30" d="M635.556,848.231V827.662A31.663,31.663,0,0,1,667.219,796h0a31.663,31.663,0,0,1,31.662,31.662v20.569" transform="translate(628.712 1305.909)" fill="none" stroke="#ff6720" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+      <g id="마스크_그룹_1" data-name="마스크 그룹 1" transform="translate(1224.688 2142.058)" clip-path="url(#clip-path)">
+        <circle id="타원_17" data-name="타원 17" cx="71.243" cy="71.243" r="71.243" fill="url(#linear-gradient-2)"/>
+        <circle id="타원_28" data-name="타원 28" cx="37.456" cy="37.456" r="37.456" transform="translate(71.243 99.215)" fill="url(#linear-gradient)"/>
+        <circle id="타원_29" data-name="타원 29" cx="58.384" cy="58.384" r="58.384" transform="translate(-45.524 11.901)" fill="url(#linear-gradient-4)"/>
+        <ellipse id="타원_30" data-name="타원 30" cx="43.068" cy="41.934" rx="43.068" ry="41.934" transform="translate(99.418 0)" fill="url(#linear-gradient-5)"/>
+      </g>
+      <circle id="타원_18" data-name="타원 18" cx="15.832" cy="15.832" r="15.832" transform="translate(1280.099 2197.47)" fill="#fff"/>
+    </g>
+    <circle id="타원_26" data-name="타원 26" cx="12" cy="12" r="12" transform="translate(1162 2272)" opacity="0.6" fill="url(#linear-gradient-6)"/>
+    <circle id="타원_27" data-name="타원 27" cx="16.5" cy="16.5" r="16.5" transform="translate(1153 2056)" opacity="0.64" fill="url(#linear-gradient-5)"/>
+    <circle id="타원_32" data-name="타원 32" cx="11" cy="11" r="11" transform="translate(1363 2257)" opacity="0.74" fill="url(#linear-gradient-4)"/>
+  </g>
+</svg>
